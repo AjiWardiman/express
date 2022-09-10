@@ -1,0 +1,21 @@
+{
+  "name": "project123",
+  "version": "1.0.0",
+  "description": "sebuah projek",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "build": "node src/index.js"
+  },
+  "author": "aji",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "latest"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "latest",
+    "dotenv": "latest",
+    "express": "latest"
+  }
+}
